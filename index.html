@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    div.comm{
+        display: block;
+        float: left;
+        width: 200px;
+        height: 200px;
+        
+        border: 10px solid black;
+        color: #fff;
+        text-align: center;
+        line-height: 200px;
+        font-size: 2em;
+        border-radius: 100%;
+        animation-name: bouncing;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-out;
+    
+    
+    
+    }
+    @keyframes bouncing {
+        from{
+            transform:translate(0px,0px);
+        }
+        to{
+            transform:translate(0px,500px);
+        }
+    }
+    .a{
+        background-color: rebeccapurple;
+        animation-delay: 0.1s;
+    }
+    .b{
+        background-color: #8B008B;
+        animation-delay: 0.2s;
+    }
+    .c{
+        background-color: #A52A2A;
+        animation-delay: 0.3s;
+    }
+    .d{
+        background-color: #7FFF00;
+        animation-delay: 0.4s;
+    }
+    .e{
+        background-color:#DC143C;
+        animation-delay: 0.5s;
+    }
+    .f{
+        background-color: #B8860B;
+        animation-delay: 0.6s;
+    }
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bouncing ball</h1>
+    <div class="a comm">A</div>
+    <div class="b comm">B</div>
+    <div class="c comm">c</div>
+    <div class="d comm">d</div>
+    <div class="e comm">e</div>
+    <div class="f comm">f</div>
+    
+
+
+</body>
+</html>
